@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="calender.js" defer></script>
+</head>
+<body>
+    <div>
+        <div class="bg-blue-600 pt-[50px] pb-[20px] px-8 flex items-center justify-between">
+            <div class="flex items-center justify-between">
+                <div class="rounded-full border-4">
+                    <img src="profile-pic.jpg" class="w-[50px] rounded-full  border-[#11111154]" alt="profile-picture">
+                </div>
+                <p class="text-white pl-[10px] text-[22px]">Hi Elizabeth</p>
+            </div>
+            <div class="text-white text-[20px]">
+                <i class="bi bi-search"></i>
+                <i class="bi bi-bell pl-7"></i>
+            </div>
+        </div>
+        <div class="bg-slate-100">
+            <p class="px-8 text-[20px] pt-[30px] pb-[10px] text-[#1d4468] font-semibold">Child Overview</p>
+            <div class="bg-white rounded-[10px] mx-8">
+                <div class="flex justify-between items-start py-[20px] px-5">
+                    <div class="flex items-center justify-between">
+                        <div class="">
+                            <img src="extra overview img.jpeg" class="w-[60px] rounded-full h-[60px]" alt="overview">
+                        </div>
+                        <div class="pl-[15px]">
+                            <p class="font-semibold text-[20px]">Timothy George</p>
+                            <p class="text-gray-400">click to view more...</p>
+                        </div>
+                    </div>
+                    <button class="bg-gray-200 rounded-3xl px-4 py-1 font-semibold text-gray-500">Class 6 'B'</button>
+                </div>
+                <hr>
+                <div class="flex justify-between px-9 items-center font-semibold pt-[15px] pb-[10px]">
+                    <p class="text-[16px] text-[#4646f8cc]">Average Scores: <span class="text-[#80dd80]">42/50</span>
+                    </p>
+                    <p class="text-[16px]  text-[#4646f8cc]">Attendance: <span class="text-[#80dd80]">42/50</span></p>
+                </div>
+            </div>
+            <p class="px-8 text-[20px] pt-[35px] pb-[20px] text-[#1d4468] font-medium">Assignments</p>
+            <div class="mx-8 bg-white rounded-[15px] flex items-center">
+                <div class="bg-blue-600 rounded-se-[45px] rounded-es-[15px] rounded-ss-[15px] py-[45px] px-[20px]">
+                    <p class="text-[21px] font-medium text-white">Due date</p>
+                    <p class="text-white text-center">Tomorrow</p>
+                </div>
+                <div class="text-start pl-3 mx-auto">
+                    <p class="text-[12px] pt-[25px]">Mathematics</p>
+                    <p class="text-[25px] pb-[25px]">Addition in Prime.....</p>
+                    <p class="text-[15px] pb-[10px]">Mr Odugbesan</p>
+                </div>
+            </div>
+            <p class="px-8 text-[20px] pt-[45px] pb-[20px] text-[#1d4468] font-medium">Events & Calender's</p>
+            <div
+                class="toggle-button bg-white w-[70px] h-[70px] flex justify-center items-center md:hidden rounded-full fixed right-[5%] bottom-[0px]">
+                <div class="">
+                    <i class="bi bi-plus-circle-fill rounded-full w-[40px] h-[40px] text-[#0000ffad] text-[30px] text-center"></i>
+                </div>
+            </div>
+            <div class="body mx-8 pb-[40px]">
+                <div class="wrapper rounded-es-[25px] rounded-ee-[25px]">
+                    <header>
+                        <p class="current-date"></p>
+                        <div class="icons">
+                            <span id="prev" class="material-symbols-rounded"><i class="bi bi-chevron-left"></i></span>
+                            <span id="next" class="material-symbols-rounded"><i class="bi bi-chevron-right"></i></span>
+                        </div>
+                    </header>
+                    <div class="calender">
+                        <ul class="weeks text-[#80808098]">
+                            <li>S</li>
+                            <li>M</li>
+                            <li>T</li>
+                            <li>W</li>
+                            <li>TH</li>
+                            <li>F</li>
+                            <li>S</li>
+                        </ul>
+                        <hr class="pb-1 mt-2">
+                        <ul class="days text-[#948d8d] font-semibold">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
